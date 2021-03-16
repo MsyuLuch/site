@@ -10,7 +10,7 @@ echo `date` $HOST >> $DIR/git_update_$NOW.log 2>&1
 HOME=/var/www/site.ru/
 export HOME
 cd $HOME
-git reset --hard origin/master >> $DIR/git_update_$NOW.log 2>&1
+git reset --hard origin/main >> $DIR/git_update_$NOW.log 2>&1
 echo " " >> $DIR/git_update_$NOW.log 2>&1
-git pull origin master >> $DIR/git_update_$NOW.log 2>&1
+git pull origin main >> $DIR/git_update_$NOW.log 2>&1
 echo " " >> $DIR/git_update_$NOW.log 2>&1
